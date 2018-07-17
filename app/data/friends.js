@@ -1,6 +1,6 @@
 var friends = [{
     "name": "Ted Mosby",
-    "photo": "../assets/ted-mosby.jpg",
+    "photo": "https://i.pinimg.com/originals/d2/e6/76/d2e676a647615bd5998a4154e8f9d0a1.jpg",
     "scores": [
         5,
         1,
@@ -16,7 +16,7 @@ var friends = [{
 },
 {
     "name": "Marshall Erikson",
-    "photo": "../assets/marshall-eriksen.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8gjlEWT1SFK3yTEZ9UTGo38OC7_RsHG3Ei6Ya1V3jvOEOi7JGAQ",
     "scores": [
         4,
         1,
@@ -32,7 +32,7 @@ var friends = [{
 },
 {
     "name": "Lily Aldrin",
-    "photo": "../assets/lily-aldrin.jpg",
+    "photo": "https://vignette.wikia.nocookie.net/p__/images/a/a1/LilyAldrin.jpg/revision/latest?cb=20130201001620&path-prefix=protagonist",
     "scores": [
         1,
         1,
@@ -48,7 +48,7 @@ var friends = [{
 },
 {
     "name": "Robin Scherbatsky",
-    "photo": "../assets/robin-scherbatsky.png",
+    "photo": "https://vignette.wikia.nocookie.net/loveinterest/images/4/48/Robin-robin-scherbatsky-29437383-1920-2560-600x800.jpg/revision/latest?cb=20121115061619",
     "scores": [
         2,
         1,
@@ -64,7 +64,7 @@ var friends = [{
 },
 {
     "name": "Barney Stinson",
-    "photo": "../assets/barney-stinson.jpeg",
+    "photo": "https://i.pinimg.com/originals/47/cb/3c/47cb3c3358365051c1eae6827e73d737.jpg",
     "scores": [
         5,
         1,
@@ -81,25 +81,3 @@ var friends = [{
 ];
 
 module.exports = friends;
-
-// compare each number with other's, calculate difference, add up
-//no negative values - use absolute difference
-// display smallest difference as match
-// function compare() {
-//     //loop through friends
-//     for (var i = 0; i < friends.length - 1; i++) {
-//         console.log(friends[i].name + " compared to " + friends[i + 1].name);
-//         console.log("question " + [i + 1] + " result : " + (friends[i].scores[i] - friends[i + 1].scores[i]));
-
-//         //loop through scores
-//         for (var j = 0; j < friends[j + 1].scores.length; j++) {
-
-//             console.log(friends[j].scores[j]);
-
-//             var difference = Math.abs(friends[j].scores[j] - friends[j + 1].scores[j]);
-//             console.log("Question " + [j + 1] + " " + difference);
-//         };
-//     };
-// };
-
-// compare();
