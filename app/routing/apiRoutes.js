@@ -29,7 +29,7 @@ module.exports = function (app) {
             bestMatchArr.push(total);
 
         };
-//determine which is the lowest number from friendData
+
         var index;
         var newBFF;
         var newBFFPic;
@@ -47,10 +47,8 @@ module.exports = function (app) {
         };
 
         indexOfSmallest(bestMatchArr);
-
         response.json({'matchName': newBFF, 'photo': newBFFPic});
-        //TODO: activate:
-        // friendData.push(userInput);
+        friendData.push(userInput);
     });
 
 };
