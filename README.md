@@ -3,4 +3,6 @@ Answer 10 questions, and find your new friend match.
 
 Built with Node and Express.
 
-Try it out on Heroku here:
+Try it live on Heroku here:
+
+https://warm-sierra-32853.herokuapp.com/
