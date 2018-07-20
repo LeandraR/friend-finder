@@ -1,5 +1,5 @@
 var friendData = require("../data/friends");
-
+console.log(friendData[0].photo)
 module.exports = function (app) {
 
 
@@ -45,7 +45,7 @@ module.exports = function (app) {
             newBFF = friendData[index].name;
             newBFFPic = friendData[index].photo;
         };
-
+        console.log(newBFFPic);
         indexOfSmallest(bestMatchArr);
         response.json({'matchName': newBFF, 'photo': newBFFPic});
         friendData.push(userInput);
